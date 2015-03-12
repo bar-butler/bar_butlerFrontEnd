@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="InvAssist">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
@@ -18,14 +18,26 @@
   </head>
   <body>
 
-    <div class="hero-unit">
-      
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#/"><i class="mdi-action-home"></i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#/">Login</a></li>
+          <li><a href="#/register">Register</a></li>
+          <li><a href="#/" ng-click="logout()">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container" ng-view>
+
     </div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/materialize/dist/js/materialize.min.js"></script>
     <script src="../bower_components/angular/angular.min.js"></script>
     <script src="../bower_components/angular-cookies/angular-cookies.min.js"></script>
     <script src="../bower_components/angular-route/angular-route.min.js"></script>
@@ -34,6 +46,11 @@
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
+
+        <script src="scripts/users/users.controller.js"></script>
+        <script src="scripts/users/users.factory.js"></script>
+
+        <script src="scripts/layout/nav.controller.js"></script>
         <!-- endbuild -->
 </body>
 </html>
