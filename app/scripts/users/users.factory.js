@@ -24,7 +24,7 @@
           console.log(res);
           $cookieStore.put('auth_token', res.user.authentication_token);
           HEROKU.CONFIG.headers['auth_token'] = res.user.authentication_token;
-          return $location.path(':id');
+          return $location.path('listing');
         });
       };
 
@@ -34,6 +34,7 @@
           console.log(res);
           $cookieStore.put('auth_token', res.user.authentication_token);
           HEROKU.CONFIG.headers['auth_token'] = res.user.authentication_token;
+          return $location.path('listing');
         });
       };
 

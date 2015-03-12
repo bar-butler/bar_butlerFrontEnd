@@ -26,6 +26,11 @@
     .when('/register', {
       templateUrl: 'scripts/users/users.register.temp.html',
       controller: 'UserController'
+    })
+
+    .when('/listing', {
+      templateUrl: 'scripts/beers/beer.temp.html',
+      controller: 'BeerController'
     });
 
   }]);
