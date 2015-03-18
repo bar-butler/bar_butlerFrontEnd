@@ -11,6 +11,7 @@
 
       BarFactory.get().success(function(response){
         $scope.beers = response.listings;
+        console.log(response);
       })
       .error(function(res){
         console.log(res);
@@ -22,6 +23,20 @@
         $cookieStore.get('auth_token');
         BarFactory.add(beerObj).success(function(results){
           console.log(results);
+        });
+      };
+
+      $scope.deleteMe = function(id, index){
+        BarFactory.del(id).success(function(res){
+          $scope.beers.splice(index, 1);
+          console.log(response);
+        });
+      };
+
+      $scope.oneBeer = function(){
+        BarFactory.one($routeParams.id).success(function(res){
+          console.log(res);
+          $scope.beer = res.listing;
         });
       };
 
