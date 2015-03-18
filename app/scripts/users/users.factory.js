@@ -11,35 +11,34 @@
         return $cookieStore.get('auth_token');
       };
 
+      var userDetails = function () {
+        return $cookieStore.get('user_object');
+      };
+
       var checkLoginStatus = function(){
-        var user = currentUser();
-        if (user){
-          HEROKU.CONFIG.headers['auth_token'] = user;
+        var userToken = currentUser();
+        if (userToken){
+          HEROKU.CONFIG.headers['auth_token'] = userToken;
         }
       };
 
+      var getUser = function(userObj){
+        return $http.get(HEROKU.URL + 'users/' + userObj.user.id, {header: HEROKU.CONFIG.headers});
+      };
+
       var addUser = function(userObj){
-        $http.post(HEROKU.URL + 'users', {user: userObj}, HEROKU.CONFIG)
-        .success(function(res){
-          console.log(res);
-          $cookieStore.put('auth_token', res.user.authentication_token);
-          HEROKU.CONFIG.headers['auth_token'] = res.user.authentication_token;
-          return $location.path('listing');
-        });
+       return $http.post(HEROKU.URL + 'users/', {user: userObj}, {header: HEROKU.CONFIG.headers});
+
       };
 
       var loginUser = function(userObj){
-        $http.post(HEROKU.URL + 'users/sign_in', {user: userObj})
-        .success(function(res){
-          console.log(res);
-          $cookieStore.put('auth_token', res.user.authentication_token);
-          HEROKU.CONFIG.headers['auth_token'] = res.user.authentication_token;
-          return $location.path('listing');
-        });
+        return $http.post(HEROKU.URL + 'users/sign_in', {user: userObj});
+
       };
 
       var logoutUser = function(){
         $cookieStore.remove('auth_token');
+        $cookieStore.remove('user_object');
         $location.path('#/');
       };
 
@@ -49,7 +48,9 @@
       register : addUser,
       login : loginUser,
       logout : logoutUser,
-      status : checkLoginStatus
+      status : checkLoginStatus,
+      get : getUser,
+      userInfo: userDetails
 
     };
 

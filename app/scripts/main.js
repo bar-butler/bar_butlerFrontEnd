@@ -8,6 +8,7 @@
     URL: 'https://inventory-assist.herokuapp.com/',
     CONFIG: {
       headers: {
+
         'Content-Type' : 'application/json'
       }
     }
@@ -28,11 +29,19 @@
       controller: 'UserController'
     })
 
-    .when('/listing', {
-      templateUrl: 'scripts/beers/beer.temp.html',
-      controller: 'BeerController'
+    .when('/:id', {
+      templateUrl: 'scripts/bars/profile.temp.html',
+      controller: 'BarController'
     });
 
-  }]);
+  }])
+
+  .run(function ($rootScope, UserFactory) {
+
+      $rootScope.$on('$routeChangeStart', function () {
+        UserFactory.status();
+      });
+
+  });
 
 }());
