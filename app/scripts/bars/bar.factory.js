@@ -40,14 +40,19 @@
        return $http.delete(HEROKU.URL + 'users/' + userObj.id + '/liquors/' + liqObj, HEROKU.CONFIG);
      };
 
+     var getOneLiq = function(liqObj, id){
+       return $http.get(HEROKU.URL + 'users/' + userObj.id + '/liquors/' + liqObj.id, HEROKU.CONFIG);
+     };
+
      return{
        getB : getBeers,
        addB : addBeer,
        delB : delBeer,
-       one : getOneBeer,
+       oneB : getOneBeer,
        addL : addLiquor,
        getL : getLiquors,
-       delL : delLiquors
+       delL : delLiquors,
+       oneL : getOneLiq
      };
 
     }

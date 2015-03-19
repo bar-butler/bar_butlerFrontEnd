@@ -9,5 +9,5 @@
 <h3>Your Current Liquor List</h3>
 
 <ul class="liquor">
-  <li ng-repeat="l in liquors"><a href="">{{ l.name }}</a><span ng-click="deleteL(l.id, $index)"> &nbsp;&nbsp;&nbsp; X</span></li>
+  <li ng-repeat="l in liquors"><a ng-click="oneLiq(l)" href="">{{ l.name }}</a><span ng-click="deleteL(l.id, $index)"> &nbsp;&nbsp;&nbsp; X</span></li>
 </ul>

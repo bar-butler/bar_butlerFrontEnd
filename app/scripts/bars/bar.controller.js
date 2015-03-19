@@ -43,7 +43,7 @@
 
       $scope.oneBeer = function(beerObj){
         $scope.beer = $routeParams.beerid;
-        BarFactory.one(beerObj).success(function(res){
+        BarFactory.oneB(beerObj).success(function(res){
           console.log(beerObj.id);
           $location.path(beerObj.id);
         });
@@ -61,6 +61,13 @@
         BarFactory.delL(id).success(function(res){
           $scope.liquors.splice(index, 1);
           console.log(res);
+        });
+      };
+
+      $scope.oneLiq = function(liqObj){
+        BarFactory.oneL(liqObj).success(function(res){
+          console.log(liqObj.id);
+        $location.path();
         });
       };
 
