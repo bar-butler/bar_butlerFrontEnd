@@ -3,5 +3,11 @@
 <h3>Your Current Beer List</h3>
 
 <ul class="beer">
-  <li ng-repeat="b in beers"><a ng-click="oneBeer(b)" href="">{{ b.name }}</a><span ng-click="deleteMe(b.id, $index)"> &nbsp;&nbsp;&nbsp; X</span></li>
+  <li ng-repeat="b in beers"><a ng-click="oneBeer(b)" href="">{{ b.name }}</a><span ng-click="deleteB(b.id, $index)"> &nbsp;&nbsp;&nbsp; X</span></li>
+</ul>
+
+<h3>Your Current Liquor List</h3>
+
+<ul class="liquor">
+  <li ng-repeat="l in liquors"><a href="">{{ l.name }}</a><span ng-click="deleteL(l.id, $index)"> &nbsp;&nbsp;&nbsp; X</span></li>
 </ul>

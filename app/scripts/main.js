@@ -34,7 +34,7 @@
     })
 
     .when('/:id/add', {
-      templateUrl: 'scripts/bars/addbeer.temp.html',
+      templateUrl: 'scripts/bars/addbooze.temp.html',
       controller: 'BarController'
     });
 
