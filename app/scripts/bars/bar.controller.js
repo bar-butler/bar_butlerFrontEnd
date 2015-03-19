@@ -7,6 +7,8 @@
 
   function($scope, BarFactory, $location, $routeParams, $cookieStore){
 
+      $scope.userId = $routeParams.id;
+
       $scope.beers = [];
       $scope.liquors = [];
 
