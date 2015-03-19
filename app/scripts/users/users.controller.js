@@ -16,10 +16,7 @@
             $cookieStore.put('user_object', results.user);
             HEROKU.CONFIG.headers['auth_token'] = results.user.authentication_token;
             // console.log(results.id);
-            UserFactory.get(userObj).success(function(id){
-              console.log(userObj.user);
-              $location.path(userObj.user.id);
-            });
+            $location.path(userObj.user.id);
           });
 
         };
@@ -31,10 +28,7 @@
             $cookieStore.put('user_object', results.user);
             HEROKU.CONFIG.headers['auth_token'] = results.user.authentication_token;
             // console.log(results.id)
-            UserFactory.get(userObj).success(function(id){
-              console.log(userObj.user.id);
-              $location.path(userObj.user.id);
-            });
+            $location.path(userObj.user.id);
           });
         };
 

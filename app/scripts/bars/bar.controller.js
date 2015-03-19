@@ -10,7 +10,7 @@
       $scope.beers = [];
 
       BarFactory.get().success(function(response){
-        $scope.beers = response.listings;
+        $scope.beers = response.beers;
         console.log(response);
       })
       .error(function(res){
@@ -22,21 +22,21 @@
         $scope.beer = {};
         $cookieStore.get('auth_token');
         BarFactory.add(beerObj).success(function(results){
-          console.log(results);
         });
       };
 
       $scope.deleteMe = function(id, index){
         BarFactory.del(id).success(function(res){
           $scope.beers.splice(index, 1);
-          console.log(response);
+          console.log(res);
         });
       };
 
-      $scope.oneBeer = function(){
-        BarFactory.one($routeParams.id).success(function(res){
-          console.log(res);
-          $scope.beer = res.listing;
+      $scope.oneBeer = function(beerObj){
+        $scope.beer = $routeParams.beerid;
+        BarFactory.one(beerObj).success(function(res){
+          console.log(beerObj.id);
+          $location.path(beerObj.id);
         });
       };
 

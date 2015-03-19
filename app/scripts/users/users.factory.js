@@ -23,11 +23,12 @@
       };
 
       var getUser = function(userObj){
-        return $http.get(HEROKU.URL + 'users/' + userObj.user.id, {header: HEROKU.CONFIG.headers});
+        console.log(userObj);
+        // return $http.get(HEROKU.URL + 'users/' + userObj.user.id, {header: HEROKU.CONFIG.headers});
       };
 
       var addUser = function(userObj){
-       return $http.post(HEROKU.URL + 'users/', {user: userObj}, {header: HEROKU.CONFIG.headers});
+       return $http.post(HEROKU.URL + 'users', {user: userObj}, HEROKU.CONFIG);
 
       };
 

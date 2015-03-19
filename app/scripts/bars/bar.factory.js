@@ -21,17 +21,20 @@
      };
 
      var delBeer = function(beerObj, id){
-       return $http.delete(HEROKU.URL + 'users/' + userObj.id + '/beers/' + beerObj.id, HEROKU.CONFIG);
+       console.log(beerObj);
+       return $http.delete(HEROKU.URL + 'users/' + userObj.id + '/beers/' + beerObj, HEROKU.CONFIG);
      };
 
      var getOneBeer = function(beerObj, id){
+       console.log(beerObj);
        return $http.get(HEROKU.URL + 'users/' + userObj.id + '/beers/' + beerObj.id, HEROKU.CONFIG);
      };
 
      return{
        get : getBeers,
        add : addBeer,
-       del : delBeer
+       del : delBeer,
+       one : getOneBeer
      };
 
     }

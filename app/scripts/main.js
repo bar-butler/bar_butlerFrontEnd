@@ -5,10 +5,9 @@
   angular.module('InvAssist', ['ngCookies', 'ngRoute'])
 
   .constant('HEROKU', {
-    URL: 'https://inventory-assist.herokuapp.com/',
+    URL: 'https://bar-butler.herokuapp.com/',
     CONFIG: {
       headers: {
-
         'Content-Type' : 'application/json'
       }
     }
@@ -32,7 +31,14 @@
     .when('/:id', {
       templateUrl: 'scripts/bars/profile.temp.html',
       controller: 'BarController'
+    })
+
+    .when('/:id/add', {
+      templateUrl: 'scripts/bars/addbeer.temp.html',
+      controller: 'BarController'
     });
+
+
 
   }])
 
