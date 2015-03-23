@@ -30,12 +30,22 @@
 
     .when('/:id', {
       templateUrl: 'scripts/bars/profile.temp.html',
-      controller: 'BarController'
+      controller: 'ProfileController'
     })
 
     .when('/:id/add', {
       templateUrl: 'scripts/bars/addbooze.temp.html',
       controller: 'BarController'
+    })
+
+    .when('/beer/:id', {
+      templateUrl: 'scripts/bars/onebeer.temp.html',
+      controller: 'ProfileController'
+    })
+
+    .when('liquor/:id', {
+      templateUrl: 'scripts/bars/oneliq.temp.html',
+      controller: 'ProfileController'
     });
 
 

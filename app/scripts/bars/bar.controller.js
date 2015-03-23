@@ -12,21 +12,21 @@
       $scope.beers = [];
       $scope.liquors = [];
 
-      BarFactory.getB().success(function(response){
-        $scope.beers = response.beers;
-        console.log(response);
-      })
-      .error(function(res){
-        console.log(res);
-      });
+      // BarFactory.getB().success(function(response){
+      //   $scope.beers = response.beers;
+      //   console.log(response);
+      // })
+      // .error(function(res){
+      //   console.log(res);
+      // });
 
-      BarFactory.getL().success(function(response){
-        $scope.liquors = response.liquors;
-        console.log(response);
-      })
-      .error(function(res){
-        console.log(res);
-      });
+      // BarFactory.getL().success(function(response){
+      //   $scope.liquors = response.liquors;
+      //   console.log(response);
+      // })
+      // .error(function(res){
+      //   console.log(res);
+      // });
 
       $scope.addBeer = function(beerObj){
 
@@ -36,20 +36,20 @@
         });
       };
 
-      $scope.deleteB = function(id, index){
-        BarFactory.delB(id).success(function(res){
-          $scope.beers.splice(index, 1);
-          console.log(res);
-        });
-      };
+      // $scope.deleteB = function(id, index){
+      //   BarFactory.delB(id).success(function(res){
+      //     $scope.beers.splice(index, 1);
+      //     console.log(res);
+      //   });
+      // };
 
-      $scope.oneBeer = function(beerObj){
-        $scope.beer = $routeParams.beerid;
-        BarFactory.oneB(beerObj).success(function(res){
-          console.log(beerObj.id);
-          $location.path(beerObj.id);
-        });
-      };
+      // $scope.oneBeer = function(beerObj){
+      //   $scope.beer = $routeParams.beerid;
+      //   BarFactory.oneB(beerObj).success(function(res){
+      //     console.log(beerObj.id);
+      //     $location.path(beerObj.id);
+      //   });
+      // };
 
       $scope.addLiquor = function (liqObj){
         $scope.liquor = {};
@@ -58,20 +58,20 @@
           console.log(results);
         });
       };
+      //
+      // $scope.deleteL = function(id, index){
+      //   BarFactory.delL(id).success(function(res){
+      //     $scope.liquors.splice(index, 1);
+      //     console.log(res);
+      //   });
+      // };
 
-      $scope.deleteL = function(id, index){
-        BarFactory.delL(id).success(function(res){
-          $scope.liquors.splice(index, 1);
-          console.log(res);
-        });
-      };
-
-      $scope.oneLiq = function(liqObj){
-        BarFactory.oneL(liqObj).success(function(res){
-          console.log(liqObj.id);
-        $location.path();
-        });
-      };
+      // $scope.oneLiq = function(liqObj){
+      //   BarFactory.oneL(liqObj).success(function(res){
+      //     console.log(liqObj.id);
+      //   $location.path();
+      //   });
+      // };
 
     }
 
