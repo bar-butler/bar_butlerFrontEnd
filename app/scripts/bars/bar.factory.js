@@ -24,7 +24,6 @@
      };
 
      var getOneBeer = function(beerObj, id){
-       console.log(beerObj);
        return $http.get(HEROKU.URL + 'users/' + userObj.id + '/beers/' + beerObj.id, HEROKU.CONFIG);
      };
 
@@ -44,6 +43,10 @@
        return $http.get(HEROKU.URL + 'users/' + userObj.id + '/liquors/' + liqObj.id, HEROKU.CONFIG);
      };
 
+     var editBeer = function(beerObj, id){
+       return $http.patch(HEROKU.URL + 'users/' + userObj.id + '/beers/' + beerObj.id, HEROKU.CONFIG);
+     };
+
      return{
        getB : getBeers,
        addB : addBeer,
@@ -52,7 +55,8 @@
        addL : addLiquor,
        getL : getLiquors,
        delL : delLiquors,
-       oneL : getOneLiq
+       oneL : getOneLiq,
+       editB : editBeer
      };
 
     }

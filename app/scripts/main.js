@@ -2,7 +2,7 @@
   "use strict";
 
 
-  angular.module('InvAssist', ['ngCookies', 'ngRoute'])
+  angular.module('InvAssist', ['ngCookies', 'ngRoute', 'chart.js'])
 
   .constant('HEROKU', {
     URL: 'https://bar-butler.herokuapp.com/',

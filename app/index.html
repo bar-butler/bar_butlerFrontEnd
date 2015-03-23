@@ -13,6 +13,7 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="../bower_components/angular-chart.js/dist/angular-chart.css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
@@ -20,7 +21,7 @@
 
     <nav>
       <div class="nav-wrapper" ng-controller="NavController">
-        <a href="#/"><i class="mdi-action-home"></i></a>
+        <a href="#/{{userId}}"><i class="mdi-action-home"></i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a ng-hide="loggedin" href="#/">Login</a></li>
           <li><a ng-hide="loggedin" href="#/register">Register</a></li>
@@ -42,6 +43,8 @@
     <script src="../bower_components/angular-cookies/angular-cookies.min.js"></script>
     <script src="../bower_components/angular-route/angular-route.min.js"></script>
     <script src="../bower_components/chart.js/chart.js"></script>
+    <script src="../bower_components/angular-chart.js/dist/angular-chart.min.js"></script>
+
     <!-- endbower -->
     <!-- endbuild -->
 

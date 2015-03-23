@@ -1,4 +1,19 @@
 <h2>{{beerName}}</h2>
 
+<div class="row">
+  <form class="col s12" ng-submit="editWeight(beer)">
+    <div class="row">
+      <div class="input-field col s12">
+        <input ng-model="beer.weight" id="beerWeight" type="text" class="validate">
+        <label for="beerWeight">New Weight</label>
+      </div>
+    </div>
+    <button class="btn waves-effect waves-light" type="submit" name="action">New weight
+      <i class="mdi-content-send right"></i>
+    </button>
+  </form>
+</div>
+
+
 
 <canvas id="beerChart" width="400" height="400"></canvas>
