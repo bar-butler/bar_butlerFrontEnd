@@ -3,15 +3,17 @@
 
   angular.module('InvAssist')
 
-  .controller('ProfileController', ['$scope', 'BarFactory', '$location', '$routeParams', '$cookieStore',
+  .controller('ProfileController', ['$scope', 'BarFactory', '$location', '$routeParams', '$cookieStore', '$rootScope',
 
-    function($scope, BarFactory, $location, $routeParams, $cookieStore){
+    function($scope, BarFactory, $location, $routeParams, $cookieStore, $rootScope){
 
       $scope.userId = $routeParams.id;
 
 
       $scope.beers = [];
       $scope.liquors = [];
+
+      // Display function for beer/liquor that corresponds to user
 
       BarFactory.getB().success(function(response){
         $scope.beers = response.beers;
@@ -29,6 +31,8 @@
         console.log(res);
       });
 
+      // Route to Profile pg function for beer/liquor
+
 
       $scope.oneBeer = function(beerObj){
         $scope.beer = $routeParams.beerid;
@@ -36,7 +40,7 @@
           console.log(beerObj.name);
 
           $location.path('beer/' + beerObj.id);
-          $scope.beerName = beerObj.name;
+          $rootScope.beerName = beerObj.name;
         });
       };
 
@@ -46,6 +50,8 @@
         $location.path('liquor' + liqObj.id);
         });
       };
+
+      // Delete function for beer/liquor
 
       $scope.deleteB = function(id, index){
         BarFactory.delB(id).success(function(res){
@@ -61,7 +67,15 @@
         });
       };
 
-    }
+
+      // Chart configuration
+
+      // var ctx = $("#beerChart").get(0).getContext("2d");
+      // var beerBarChart = new Chart(ctx).Bar(data, options);
+      // var data = {};
+
+
+      }
 
   ]);
 
