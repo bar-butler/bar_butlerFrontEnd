@@ -46,8 +46,9 @@
 
       $scope.oneLiq = function(liqObj){
         BarFactory.oneL(liqObj).success(function(res){
-          console.log(liqObj.id);
-        $location.path('liquor' + liqObj.id);
+          console.log(liqObj);
+        $location.path('liquor/' + liqObj.id);
+          $rootScope.liqName = liqObj.name;
         });
       };
 

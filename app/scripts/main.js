@@ -43,8 +43,8 @@
       controller: 'ProfileController'
     })
 
-    .when('liquor/:id', {
-      templateUrl: 'scripts/bars/oneliq.temp.html',
+    .when('/liquor/:id', {
+      templateUrl: 'scripts/bars/oneliquor.temp.html',
       controller: 'ProfileController'
     });
 
