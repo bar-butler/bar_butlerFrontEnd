@@ -40,12 +40,12 @@
 
     .when('/beer/:id', {
       templateUrl: 'scripts/bars/onebeer.temp.html',
-      controller: 'ProfileController'
+      controller: 'EditController'
     })
 
     .when('/liquor/:id', {
       templateUrl: 'scripts/bars/oneliquor.temp.html',
-      controller: 'ProfileController'
+      controller: 'EditController'
     });
 
 
@@ -53,6 +53,8 @@
   }])
 
   .run(function ($rootScope, UserFactory) {
+
+
 
       $rootScope.$on('$routeChangeStart', function () {
         UserFactory.status();

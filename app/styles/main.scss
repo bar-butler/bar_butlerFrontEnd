@@ -1,23 +1,37 @@
 
 // Custom Styles
+.nav-wrapper{
+  background-color: #26A69A;
+}
 body {
   background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #333;
 }
-
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+#linktop {
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  color: #26A69A;
+  margin-top: 1em;
+}
+#listbooze {
+  color: black;
+}
+#addbevbtn {
+  margin-left: 1em;
+  background-color: #26A69A;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif
+}
+#listbev {
+  font-family: Monoton, Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+}
+h2 {
+  font-family: Allura, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.container{
+  padding: 1em;
 }

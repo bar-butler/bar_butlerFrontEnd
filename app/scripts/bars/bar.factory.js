@@ -44,7 +44,7 @@
      };
 
      var editBeer = function(beerObj, id){
-       return $http.patch(HEROKU.URL + 'users/' + userObj.id + '/beers/' + beerObj.id, HEROKU.CONFIG);
+       return $http.put(HEROKU.URL + 'users/' + userObj.id + '/beers/' + id, beerObj, HEROKU.CONFIG);
      };
 
      return{

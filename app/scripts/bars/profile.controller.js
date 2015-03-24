@@ -37,7 +37,7 @@
       $scope.oneBeer = function(beerObj){
         $scope.beer = $routeParams.beerid;
         BarFactory.oneB(beerObj).success(function(res){
-          console.log(beerObj.name);
+          console.log(beerObj);
           $location.path('beer/' + beerObj.id);
           $rootScope.beerName = beerObj.name;
         });
@@ -67,34 +67,8 @@
         });
       };
 
-      $scope.editWeight = function(beerObj){
-        $scope.beer = $routeParams.beerid;
-        BarFactory.editB(beerObj).success(function(res){
-        console.log(res);
-        });
-      };
 
-
-      // Chart configuration
-
-      // $(document).ready(function(){
-      //   var ctx = document.getElementById("beerChart").getContext("2d");
-      //   var newBeerChart = new Chart(ctx).Line(data);
-      //   var data = {
-      //
-      //       labels:["Today", "Tomorrow"],
-      //       datasets:[
-      //         {
-      //           label: "Original Weight",
-      //           data: ['6', '7']
-      //         }
-      //       ]
-      //   };
-      //
-      // });
-
-
-      }
+    }
 
   ]);
 
