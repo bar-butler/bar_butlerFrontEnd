@@ -8,6 +8,7 @@
     function($scope, BarFactory, $location, $routeParams, $cookieStore, $rootScope){
 
       $scope.beerId = $routeParams.id;
+      $scope.weights = [];
 
 
       $scope.editWeight = function(beerObj){
@@ -20,7 +21,11 @@
         });
       };
 
-    
+    $scope.editKegs = function(beerObj){
+      BarFactory.editK(beerObj, $scope.beerId).success(function(res){
+        console.log(res);
+      });
+    };
 
 
 

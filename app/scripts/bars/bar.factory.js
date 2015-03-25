@@ -47,6 +47,10 @@
        return $http.put(HEROKU.URL + 'users/' + userObj.id + '/beers/' + id, beerObj, HEROKU.CONFIG);
      };
 
+     var editKeg = function(beerObj, id){
+       return $http.put(HEROKU.URL + 'users/' + userObj.id + '/beers/' + id, beerObj, HEROKU.CONFIG);
+     };
+
      return{
        getB : getBeers,
        addB : addBeer,
@@ -56,7 +60,8 @@
        getL : getLiquors,
        delL : delLiquors,
        oneL : getOneLiq,
-       editB : editBeer
+       editB : editBeer,
+       editK : editKeg
      };
 
     }

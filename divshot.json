@@ -1,0 +1,6 @@
+{
+  "name": "bar-butler",
+  "root": "dist",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
