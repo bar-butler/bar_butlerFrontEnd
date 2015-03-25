@@ -38,3 +38,18 @@ h2 {
 #dryat{
   font-weight: bold;
 }
+#nav-mobile{
+  display: inline-block;
+  #nameLine{
+    text-align: center;
+    padding-right: 40em;
+    #bar{
+      font-family: Monoton;
+      font-size: 2em;
+    }
+    #butler{
+      font-family: Allura;
+      font-size: 2.4em;
+    }
+  }
+}
