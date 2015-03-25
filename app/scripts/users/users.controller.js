@@ -3,11 +3,12 @@
 
   angular.module('InvAssist')
 
-  .controller('UserController', ['$scope', 'UserFactory', '$location', '$cookieStore', 'HEROKU',
+  .controller('UserController', ['$scope', 'UserFactory', '$location', '$cookieStore', 'HEROKU', '$rootScope',
 
-    function($scope, UserFactory, $location, $cookieStore, HEROKU){
+    function($scope, UserFactory, $location, $cookieStore, HEROKU, $rootScope){
 
       var user = UserFactory.user();
+
 
         $scope.loginUser = function(userObj, id){
           UserFactory.login(userObj).success(function(results){
@@ -15,7 +16,8 @@
             $cookieStore.put('auth_token', results.user.authentication_token);
             $cookieStore.put('user_object', results.user);
             HEROKU.CONFIG.headers['auth_token'] = results.user.authentication_token;
-            // console.log(results.id);
+            console.log(userObj.user.id);
+            $rootScope.userHome = userObj.user.id;
             $location.path(userObj.user.id);
           });
 

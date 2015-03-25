@@ -5,16 +5,29 @@
   <form class="col s12" ng-submit="editWeight(beer)">
     <div class="row">
       <div class="input-field col s12">
-        <input ng-model="beer.weight" id="beerWeight" type="text" class="validate">
+        <input ng-model="beer.weight" id="beerWeight" type="number" class="validate">
         <label for="beerWeight">New Weight</label>
       </div>
     </div>
     <button class="btn waves-effect waves-light" type="submit" name="action">New weight
       <i class="mdi-content-send right"></i>
     </button>
+  </form><br>
+  <form class="col s12" ng-submit="editKegs(beer)">
+    <div class="row">
+      <div class="input-field col s12">
+        <input ng-model="beer.keg_number" id="numberKegs" type="number" class="validate">
+        <label for="kegNumber">Add kegs</label>
+      </div>
+    </div>
+    <button class="btn waves-effect waves-light" type="submit" name="action">Add Kegs
+      <i class="mdi-content-send right"></i>
+    </button>
   </form>
 </div>
 
 
+<h3>Your current keg will be empty in...<span id="dryat">{{dryAt}}</span></h3>
 
-<canvas id="beerChart" width="400" height="400"></canvas>
+<h3>Kegs left: <span id="dryat">{{kegNum}}</span></h3>
+<canvas id="beerChart" width="400" height="400" data="beer.weight"></canvas>
