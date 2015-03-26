@@ -19,14 +19,15 @@ body {
   color: black;
 }
 #addbevbtn {
-  margin-left: 1em;
+  float: right;
+  margin-right: 35em;
   background-color: #26A69A;
   color: white;
   font-family: Helvetica, Arial, sans-serif
 }
 #listbev {
   font-family: Monoton, Helvetica, Arial, sans-serif;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 h2 {
   font-family: Allura, Helvetica, Arial, sans-serif;
@@ -52,4 +53,7 @@ h2 {
       font-size: 2.4em;
     }
   }
+}
+#beerMug{
+  padding-left: 1em;
 }

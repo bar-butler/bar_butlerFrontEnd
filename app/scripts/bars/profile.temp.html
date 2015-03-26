@@ -3,7 +3,7 @@
 <h2>Your Current Beer List</h2>
 
 <ul class="beer">
-  <li id="listbev" ng-repeat="b in beers"><a id="listbooze" ng-click="oneBeer(b)" href="">{{ b.name }}</a><button id="addbevbtn" ng-click="deleteB(b.id, $index)">X</button></li><br>
+  <li id="listbev" ng-repeat="b in beers"><button id="addbevbtn" ng-click="deleteB(b.id, $index)">X</button><a id="listbooze" ng-click="oneBeer(b)" href="">{{ b.name }}</a></li><br>
 </ul>
 
 <h2>Your Current Liquor List</h2>

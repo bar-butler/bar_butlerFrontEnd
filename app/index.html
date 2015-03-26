@@ -9,6 +9,7 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
     <link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Monoton|Allura">
     <!-- endbower -->
     <!-- endbuild -->
@@ -22,7 +23,7 @@
 
     <nav>
       <div class="nav-wrapper" ng-controller="NavController">
-        <a href="#/{{userHome}}"><i class="mdi-action-home"></i></a>
+        <a href="#/{{userHome}}"><i id="beerMug" class="fa fa-beer"></i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li id="nameLine"><span id="bar">Bar</span><span id="butler">Butler</span></li>
           <li><a ng-hide="loggedin" href="#/">Login</a></li>
