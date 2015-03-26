@@ -9,10 +9,11 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
     <link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Monoton|Allura">
     <!-- endbower -->
     <!-- endbuild -->
+    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Monoton|Allura">
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="../bower_components/angular-chart.js/dist/angular-chart.css">
@@ -23,7 +24,7 @@
 
     <nav>
       <div class="nav-wrapper" ng-controller="NavController">
-        <a href="#/{{userHome}}"><i id="beerMug" class="fa fa-beer"></i></a>
+        <a ng-href="#/{{userHome}}"><i id="beerMug" class="fa fa-beer"></i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li id="nameLine"><span id="bar">Bar</span><span id="butler">Butler</span></li>
           <li><a ng-hide="loggedin" href="#/">Login</a></li>
@@ -51,18 +52,18 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
 
-        <script src="scripts/users/users.controller.js"></script>
-        <script src="scripts/users/users.factory.js"></script>
+    <script src="scripts/users/users.controller.js"></script>
+    <script src="scripts/users/users.factory.js"></script>
 
-        <script src="scripts/bars/bar.controller.js"></script>
-        <script src="scripts/bars/profile.controller.js"></script>
-        <script src="scripts/bars/edit.controller.js"></script>
-        <script src="scripts/bars/bar.factory.js"></script>
+    <script src="scripts/bars/bar.controller.js"></script>
+    <script src="scripts/bars/profile.controller.js"></script>
+    <script src="scripts/bars/edit.controller.js"></script>
+    <script src="scripts/bars/bar.factory.js"></script>
 
-        <script src="scripts/layout/nav.controller.js"></script>
-        <!-- endbuild -->
+    <script src="scripts/layout/nav.controller.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
