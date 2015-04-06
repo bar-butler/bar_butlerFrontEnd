@@ -10,7 +10,6 @@ This is an app that I created during my time at [The Iron Yard's](http://theiron
   * AngularJS
   * MaterializeCSS
   * User auth, cookies
-  * Divshot
   
  ### APIs
   * Internal server (Ruby on Rails)
