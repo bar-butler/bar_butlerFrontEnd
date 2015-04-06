@@ -9,7 +9,6 @@ This is an app that I created during my time at [The Iron Yard's](http://theiron
   * JavaScript
   * AngularJS
   * MaterializeCSS
-  * Underscore
   * User auth, cookies
   * Divshot
   
