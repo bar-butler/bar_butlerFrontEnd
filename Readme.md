@@ -9,7 +9,7 @@ This is an app that I created during my time at [The Iron Yard's](http://theiron
   * JavaScript
   * AngularJS
   * MaterializeCSS
-  * User auth, cookies
+  * User authentication/cookies
   
  ### APIs
   * Internal server (Ruby on Rails)
