@@ -1,5 +1,25 @@
-## Readme
+## Bar-Butler
 
-You should probably update this file.
+This is an app that I created during my time at [The Iron Yard's](http://theironyard.com/locations/atlanta/) coding boot-camp.
 
-> This app was generated with the [Yeoman TIY Generator](https://github.com/twhitacre/generator-tiy-webapp)
+### Resources Used
+  * HTML
+  * CSS
+  * Sass
+  * JavaScript
+  * AngularJS
+  * MaterializeCSS
+  * User authentication/cookies
+  
+ ### APIs
+  * Internal server (Ruby on Rails)
+  
+### How to use it
+
+From command line:
+  * `git clone git@github.com:bar-butler/bar_butlerFrontEnd.git`
+  * `cd bar_butlerFrontEnd`
+  * `npm install`
+  * `bower install` 
+  
+  
