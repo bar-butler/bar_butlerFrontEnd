@@ -1,0 +1,384 @@
+Script started on Sun Jun 14 19:48:19 2015
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd/dist]1;..FrontEnd/dist[0m[27m[24m[J[01;32m➜ [01;32m [36mdist [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=sscripts[?1l>
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd/dist/scripts]1;../dist/scripts[0m[27m[24m[J[01;32m➜ [01;32m [36mscripts [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mbars[39;49m[0m      main.js   [1m[36musers[39;49m[0m     vendor.js
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd/dist/scripts]1;../dist/scripts[0m[27m[24m[J[01;32m➜ [01;32m [36mscripts [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd/dist]1;..FrontEnd/dist[0m[27m[24m[J[01;32m➜ [01;32m [36mdist [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=lls[?1l>
+]2;ls -G]1;lsReadme.md        [1m[36mbower_components[39;49m[0m gulpfile.js      [1m[36mtest[39;49m[0m
+[1m[36mapp[39;49m[0m              [1m[36mdist[39;49m[0m             [1m[36mnode_modules[39;49m[0m
+bower.json       divshot.json     package.json
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=aapp
+[0mAppleFileServer             appletviewer              
+Apple_PubSub_Socket_Render  apply                     
+[1;31mapp[0m/                        appsleepd                 
+[Japplesingle                 [J                          [4A[0m[27m[24m[35Capp[KA[2CleFileServer
+[7mAppleFileServer           [0m  appletviewer              [K
+Apple_PubSub_Socket_Render  apply                     [K
+[1;31mapp[0m/                        appsleepd                 [K
+[Japplesingle                 [J                          [4A[0m[27m[24m[35CAppleFileServer[K
+[7mAppleFileServer           [0m  [7mAppleFileServer           [0m  [A[0m[27m[24m[35CAppleFileServer[K[10D_PubSub_Socket_Render[1m=[0m
+[0mAppleFileServer             [1B[7mApple_PubSub_Socket_Render[0m  [A[A[0m[27m[24m[35CApple_PubSub_Socket_Render[1m=[0m[K[27Da[2C[1m/[0m                      [0m [23D
+[1B[0mApple_PubSub_Socket_Render  [1B[7mapp/                      [0m  [3A[0m[27m[24m[35Capp[1m/[0m[K
+[J[A[39C[0m [?1l>
+[J]2;app]1;app[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd/app]1;..rFrontEnd/app[0m[27m[24m[J[01;32m➜ [01;32m [36mapp [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=lls[?1l>
+]2;ls -G]1;lsfavicon.ico [1m[36mimages[39;49m[0m      index.html  [1m[36mscripts[39;49m[0m     [1m[36mstyles[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd/app]1;..rFrontEnd/app[0m[27m[24m[J[01;32m➜ [01;32m [36mapp [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=ccd ...[?1l>
+]2;cd ../..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects]1;..ard /Projects[0m[27m[24m[J[01;32m➜ [01;32m [36mProjects [01;34m[01;34m [00m[K[?1h=bbar_butlerFrontEnd[1m/[0m[0m [?1l>
+]2;bar_butlerFrontEnd]1;bar_butlerFrontEnd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=aatom .[?1l>
+]2;atom .]1;atom[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=aatom .[?1l>
+]2;atom .]1;atom[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggit add /     g  ddivshot push[?1l>
+]2;divshot push]1;divshot
+Creating build ... [32m✔[39m
+Hashing Directory Contents ...[32m ✔[39m
+
+[2K[1GSyncing 20 files: [[32m==                                    [39m] [1m5%[22m[2K[1GSyncing 20 files: [[32m======================               [39m] [1m60%[22m[2K[1GSyncing 20 files: [[32m========================             [39m] [1m65%[22m[2K[1GSyncing 20 files: [[32m==========================           [39m] [1m70%[22m[2K[1GSyncing 20 files: [[32m============================         [39m] [1m75%[22m[2K[1GSyncing 20 files: [[32m==============================       [39m] [1m80%[22m[2K[1GSyncing 20 files: [[32m===============================      [39m] [1m85%[22m[2K[1GSyncing 20 files: [[32m=================================    [39m] [1m90%[22m[2K[1GSyncing 20 files: [[32m===================================  [39m] [1m95%[22m[2K[1GSyncing 20 files: [[32m====================================[39m] [1m100%[22m
+
+
+Finalizing build ... [32m✔[39m
+Releasing build to [1mdevelopment[22m ... [32m✔[39m
+
+Application deployed to [1m[37mdevelopment[39m[22m
+You can view your app at: [1mhttp://development.bar-butler.divshot.io[22m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggit qa  add .[?1l>
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggit commit -m "delete icons"[?1l>
+]2;git commit -m "delete icons"]1;git[master cd5a871] delete icons
+ 6 files changed, 2 deletions(-)
+ create mode 100644 .divshot-cache/deploy/67/76/da/c9581f240cb5ae08c97351ece15422fd9bee1edcbbe67fb203c915d229
+ create mode 100644 .divshot-cache/deploy/a7/c2/0b/daa1fee799f59eae983f7f00bcf082bf4830429c540c007ae14815c73b
+ create mode 100644 .divshot-cache/deploy/e7/1e/24/e9bbaed7635c0cae6f22f2b146cc64adc4c0aea3b32cdb42360a589981
+ create mode 100644 .divshot-cache/deploy/ea/d8/f7/a27bb7dcffa6ce540c230813eb44af1454f51e5a5d7edd971abde4bef1
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m)[00m[01;34m [00m[K[?1h=ddicsh   vshot push[?1l>
+]2;divshot push]1;divshot
+Creating build ... [32m✔[39m
+Hashing Directory Contents ...[32m ✔[39m
+
+[2K[1GSyncing 20 files: [[32m==                                    [39m] [1m5%[22m[2K[1GSyncing 20 files: [[32m=========                            [39m] [1m25%[22m[2K[1GSyncing 20 files: [[32m===========                          [39m] [1m30%[22m[2K[1GSyncing 20 files: [[32m===============================      [39m] [1m85%[22m[2K[1GSyncing 20 files: [[32m=================================    [39m] [1m90%[22m[2K[1GSyncing 20 files: [[32m===================================  [39m] [1m95%[22m[2K[1GSyncing 20 files: [[32m====================================[39m] [1m100%[22m
+
+
+Finalizing build ... [32m✔[39m
+Releasing build to [1mdevelopment[22m ... [32m✔[39m
+
+Application deployed to [1m[37mdevelopment[39m[22m
+You can view your app at: [1mhttp://development.bar-butler.divshot.io[22m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggulp[?1l>
+]2;gulp]1;gulp[[90m19:55:28[39m] Using gulpfile [35m~/Iron Yard /Projects/bar_butlerFrontEnd/gulpfile.js[39m
+[[90m19:55:28[39m] Starting '[36mclean[39m'...
+[[90m19:55:28[39m] Finished '[36mclean[39m' after [35m342 ms[39m
+[[90m19:55:28[39m] Starting '[36mdefault[39m'...
+[[90m19:55:28[39m] Starting '[36mstyles[39m'...
+[[90m19:55:29[39m] Starting '[36mimages[39m'...
+[[90m19:55:29[39m] Starting '[36mfonts[39m'...
+[[90m19:55:29[39m] Starting '[36mextras[39m'...
+[[90m19:55:29[39m] Finished '[36mdefault[39m' after [35m818 ms[39m
+[[90m19:55:29[39m] Finished '[36mimages[39m' after [35m360 ms[39m
+[[90m19:55:29[39m] Finished '[36mfonts[39m' after [35m5.86 ms[39m
+[[90m19:55:29[39m] Finished '[36mextras[39m' after [35m41 ms[39m
+[[90m19:55:30[39m] Finished '[36mstyles[39m' after [35m2.08 s[39m
+[[90m19:55:30[39m] Starting '[36mhtml[39m'...
+[[90m19:55:32[39m] Finished '[36mhtml[39m' after [35m2.07 s[39m
+[[90m19:55:32[39m] Starting '[36mbuild[39m'...
+[[90m19:55:33[39m] gulp-size: '[36mbuild[39m' [32mtotal[39m [35m227.62 kB[39m[90m (gzipped)[39m
+[[90m19:55:33[39m] Finished '[36mbuild[39m' after [35m194 ms[39m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=aatom .[?1l>
+]2;atom .]1;atom[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ddicsh   vshot push[?1l>
+]2;divshot push]1;divshot
+Creating build ... [32m✔[39m
+Hashing Directory Contents ...[32m ✔[39m
+
+[2K[1GSyncing 20 files: [[32m==                                    [39m] [1m5%[22m[2K[1GSyncing 20 files: [[32m======================               [39m] [1m60%[22m[2K[1GSyncing 20 files: [[32m==============================       [39m] [1m80%[22m[2K[1GSyncing 20 files: [[32m===============================      [39m] [1m85%[22m[2K[1GSyncing 20 files: [[32m=================================    [39m] [1m90%[22m[2K[1GSyncing 20 files: [[32m===================================  [39m] [1m95%[22m[2K[1GSyncing 20 files: [[32m====================================[39m] [1m100%[22m
+
+
+Finalizing build ... [32m✔[39m
+Releasing build to [1mdevelopment[22m ... [32m✔[39m
+
+Application deployed to [1m[37mdevelopment[39m[22m
+You can view your app at: [1mhttp://development.bar-butler.divshot.io[22m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggulp deploy[?1l>
+]2;gulp deploy]1;gulp[[90m19:56:55[39m] Using gulpfile [35m~/Iron Yard /Projects/bar_butlerFrontEnd/gulpfile.js[39m
+[[90m19:56:55[39m] Starting '[36mdeploy[39m'...
+[[90m19:56:55[39m] Finished '[36mdeploy[39m' after [35m3.79 ms[39m
+[[32m?[39m] This will deploy to GitHub Pages. Have you already built your application and pushed your updated master branch? (Y/n) y
+[80D[2K[1A[80D[2K[[32m?[39m] This will deploy to GitHub Pages. Have you already built your application and pushed your updated master branch? [36mYes[39m
+Attempting: "git subtree push --prefix dist origin gh-pages"
+git push using:  origin gh-pages
+
+-n 1/      34 (0)
+-n 2/      34 (1)
+-n 3/      34 (2)
+-n 4/      34 (3)
+-n 5/      34 (4)
+-n 6/      34 (5)
+-n 7/      34 (6)
+-n 8/      34 (7)
+-n 9/      34 (8)
+-n 10/      34 (9)
+-n 11/      34 (10)
+-n 12/      34 (11)
+-n 13/      34 (12)
+-n 14/      34 (13)
+-n 15/      34 (14)
+-n 16/      34 (15)
+-n 17/      34 (16)
+-n 18/      34 (17)
+-n 19/      34 (18)
+-n 20/      34 (19)
+-n 21/      34 (20)
+-n 22/      34 (21)
+-n 23/      34 (22)
+-n 24/      34 (23)
+-n 25/      34 (24)
+-n 26/      34 (25)
+-n 27/      34 (26)
+-n 28/      34 (27)
+-n 29/      34 (28)
+-n 30/      34 (29)
+-n 31/      34 (30)
+-n 32/      34 (31)
+-n 33/      34 (32)
+-n 34/      34 (33)
+No new revisions were found
+
+
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=aatom .[?1l>
+]2;atom .]1;atom[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggulp[?1l>
+]2;gulp]1;gulp[[90m19:57:59[39m] Using gulpfile [35m~/Iron Yard /Projects/bar_butlerFrontEnd/gulpfile.js[39m
+[[90m19:57:59[39m] Starting '[36mclean[39m'...
+[[90m19:57:59[39m] Finished '[36mclean[39m' after [35m147 ms[39m
+[[90m19:57:59[39m] Starting '[36mdefault[39m'...
+[[90m19:57:59[39m] Starting '[36mstyles[39m'...
+[[90m19:58:00[39m] Starting '[36mimages[39m'...
+[[90m19:58:00[39m] Starting '[36mfonts[39m'...
+[[90m19:58:00[39m] Starting '[36mextras[39m'...
+[[90m19:58:00[39m] Finished '[36mdefault[39m' after [35m331 ms[39m
+[[90m19:58:00[39m] Finished '[36mimages[39m' after [35m159 ms[39m
+[[90m19:58:00[39m] Finished '[36mfonts[39m' after [35m5.88 ms[39m
+[[90m19:58:00[39m] Finished '[36mextras[39m' after [35m17 ms[39m
+[[90m19:58:00[39m] Finished '[36mstyles[39m' after [35m549 ms[39m
+[[90m19:58:00[39m] Starting '[36mhtml[39m'...
+[[90m19:58:02[39m] Finished '[36mhtml[39m' after [35m1.8 s[39m
+[[90m19:58:02[39m] Starting '[36mbuild[39m'...
+[[90m19:58:02[39m] gulp-size: '[36mbuild[39m' [32mtotal[39m [35m228.64 kB[39m[90m (gzipped)[39m
+[[90m19:58:02[39m] Finished '[36mbuild[39m' after [35m105 ms[39m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ggulp[?1l>
+]2;gulp]1;gulp[[90m19:59:21[39m] Using gulpfile [35m~/Iron Yard /Projects/bar_butlerFrontEnd/gulpfile.js[39m
+[[90m19:59:21[39m] Starting '[36mclean[39m'...
+[[90m19:59:21[39m] Finished '[36mclean[39m' after [35m152 ms[39m
+[[90m19:59:21[39m] Starting '[36mdefault[39m'...
+[[90m19:59:21[39m] Starting '[36mstyles[39m'...
+[[90m19:59:21[39m] Starting '[36mimages[39m'...
+[[90m19:59:21[39m] Starting '[36mfonts[39m'...
+[[90m19:59:21[39m] Starting '[36mextras[39m'...
+[[90m19:59:21[39m] Finished '[36mdefault[39m' after [35m322 ms[39m
+[[90m19:59:21[39m] Finished '[36mimages[39m' after [35m152 ms[39m
+[[90m19:59:21[39m] Finished '[36mfonts[39m' after [35m5.79 ms[39m
+[[90m19:59:21[39m] Finished '[36mextras[39m' after [35m16 ms[39m
+[[90m19:59:21[39m] Finished '[36mstyles[39m' after [35m556 ms[39m
+[[90m19:59:21[39m] Starting '[36mhtml[39m'...
+[[90m19:59:23[39m] Finished '[36mhtml[39m' after [35m1.85 s[39m
+[[90m19:59:23[39m] Starting '[36mbuild[39m'...
+[[90m19:59:23[39m] gulp-size: '[36mbuild[39m' [32mtotal[39m [35m228.77 kB[39m[90m (gzipped)[39m
+[[90m19:59:23[39m] Finished '[36mbuild[39m' after [35m108 ms[39m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=s aatom .[?1l>
+]2;atom .]1;atom[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ddivshot push[?1l>
+]2;divshot push]1;divshot
+Creating build ... [32m✔[39m
+Hashing Directory Contents ...[32m ✔[39m
+
+[2K[1GSyncing 20 files: [[32m==                                    [39m] [1m5%[22m[2K[1GSyncing 20 files: [[32m====                                 [39m] [1m10%[22m[2K[1GSyncing 20 files: [[32m===========                          [39m] [1m30%[22m[2K[1GSyncing 20 files: [[32m=============                        [39m] [1m35%[22m[2K[1GSyncing 20 files: [[32m=================================    [39m] [1m90%[22m[2K[1GSyncing 20 files: [[32m===================================  [39m] [1m95%[22m[2K[1GSyncing 20 files: [[32m====================================[39m] [1m100%[22m
+
+
+Finalizing build ... [32m✔[39m
+Releasing build to [1mdevelopment[22m ... [32m✔[39m
+
+Application deployed to [1m[37mdevelopment[39m[22m
+You can view your app at: [1mhttp://development.bar-butler.divshot.io[22m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=aatom / .[?1l>
+]2;atom .]1;atom[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=aatom .[?1l>
+]2;atom .]1;atom[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=nnpm install -g learnyounode[?1l>
+]2;npm install -g learnyounode]1;npm-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G\[0G|[0G/[0G-[0G/usr/local/bin/learnyounode -> /usr/local/lib/node_modules/learnyounode/learnyounode.js
+learnyounode@2.5.2 /usr/local/lib/node_modules/learnyounode
+├── duplexer@0.1.1
+├── after@0.8.1
+├── rimraf@2.2.8
+├── through@2.3.7
+├── boganipsum@0.1.0
+├── combined-stream@0.0.7 (delayed-stream@0.0.5)
+├── colors-tmpl@1.0.0 (colors@1.0.3)
+├── chalk@0.5.1 (ansi-styles@1.1.0, escape-string-regexp@1.0.3, supports-color@0.2.0, has-ansi@0.1.0, strip-ansi@0.3.0)
+├── bl@0.9.4 (readable-stream@1.0.33)
+├── through2@0.6.5 (xtend@4.0.0, readable-stream@1.0.33)
+├── concat-stream@1.4.10 (inherits@2.0.1, typedarray@0.0.6, readable-stream@1.1.13)
+├── hyperquest@1.0.1 (duplexer2@0.0.2)
+├── workshopper-wrappedexec@0.1.2 (xtend@2.1.2)
+├── through2-map@1.4.0 (xtend@3.0.0, through2@0.5.1, terminus@1.0.12)
+├── workshopper-exercise@2.3.0 (tuple-stream@0.0.2, split@0.3.3, visualwidth@0.0.1, xtend@2.1.2, chalk@0.4.0, through2@0.4.2, i18n-core@1.3.3)
+└── workshopper@2.5.0 (map-async@0.1.1, xtend@3.0.0, mkdirp@0.3.5, chalk@0.4.0, visualwidth@0.0.1, colors-tmpl@0.1.1, optimist@0.6.1, i18n-core@1.3.3, terminal-menu@2.1.1, msee@0.1.1)
+[2K[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ll3q4  l lq3 l learnyounode[?1l>
+]2;learnyounode]1;learnyounode[0m[1mc[44m[37m[3;3f                                                                     [3;5f[1mLEARN YOU THE NODE.JS FOR MUCH WIN![22m[44m[37m[4;3f                                                                     [4;5f[3m[23mSelect an exercise and hit [3mEnter[23m to begin[23m[44m[37m[5;3f                                                                     [5;5f─────────────────────────────────────────────────────────────────[6;3f                                                                     [7;3f                                                                     [8;3f                                                                     [9;3f                                                                     [10;3f                                                                     [11;3f                                                                     [12;3f                                                                     [13;3f                                                                     [14;3f                                                                     [15;3f                                                                     [16;3f                                                                     [17;3f                                                                     [18;3f                                                                     [44m[37m[19;3f                                                                     [19;5f─────────────────────────────────────────────────────────────────[20;3f                                                                     [21;3f                                                                     [22;3f                                                                     [23;3f                                                                     [?25l[2;3f                                                                     [6;5f[47m[34m[1m»[22m HELLO WORLD                                           [7;5f[44m[37m[1m»[22m BABY STEPS                                            [8;5f[44m[37m[1m»[22m MY FIRST I/O!                                         [9;5f[44m[37m[1m»[22m MY FIRST ASYNC I/O!                                   [10;5f[44m[37m[1m»[22m FILTERED LS                                           [11;5f[44m[37m[1m»[22m MAKE IT MODULAR                                       [12;5f[44m[37m[1m»[22m HTTP CLIENT                                           [13;5f[44m[37m[1m»[22m HTTP COLLECT                                          [14;5f[44m[37m[1m»[22m JUGGLING ASYNC                                        [15;5f[44m[37m[1m»[22m TIME SERVER                                           [16;5f[44m[37m[1m»[22m HTTP FILE SERVER                                      [17;5f[44m[37m[1m»[22m HTTP UPPERCASERER                                     [18;5f[44m[37m[1m»[22m HTTP JSON API SERVER                                  [20;5f[44m[37m[1mHELP[22m                                                    [21;5f[44m[37m[1mCHOOSE LANGUAGE[22m                                         [22;5f[44m[37m[1mCREDITS[22m                                                 [23;5f[44m[37m[1mEXIT[22m                                                    [44m[37m[24;3f                                                                     [25;1f[0mc[?25h[0m[1;1f
+ [1m[32mLEARN YOU THE NODE.JS FOR MUCH WIN![39m[22m
+[1m[32m─────────────────────────────────────[39m[22m
+ [1m[33mHELLO WORLD[39m[22m
+ [3m[33mExercise 1 of 13[39m[23m
+
+Write a program that prints the text "HELLO WORLD" to the console (stdout).
+
+[90m-------------------------------------------------------------------------------
+[39m
+[90m##[39m [1m[36mHINTS[39m[22m
+
+To make a Node.js program, create a new file with a [33m.js[39m extension and start writing JavaScript! Execute your program by running it with the
+[33mnode[39m command. e.g.:
+
+    [33m$ node program.js[39m
+
+You can write to the console in the same way as in the browser:
+
+    [34mconsole[39m[32m.[39m[34mlog[39m[90m([39m[92m"text"[39m[90m)[39m
+
+When you are done, you must run:
+
+    [33m$ learnyounode verify program.js[39m
+
+to proceed. Your program will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.
+
+[90m-------------------------------------------------------------------------------
+[39m
+ [1m»[22m To print these instructions again, run: [33mlearnyounode print[39m
+ [1m»[22m To execute your program in a test environment, run: [33mlearnyounode run program.js[39m
+ [1m»[22m To verify your program, run: [33mlearnyounode verify program.js[39m
+ [1m»[22m For help run: [33mlearnyounode help[39m
+
+
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects/bar_butlerFrontEnd]1;..utlerFrontEnd[0m[27m[24m[J[01;32m➜ [01;32m [36mbar_butlerFrontEnd [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard /Projects]1;..ard /Projects[0m[27m[24m[J[01;32m➜ [01;32m [36mProjects [01;34m[01;34m [00m[K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard ]1;~/Iron Yard [0m[27m[24m[J[01;32m➜ [01;32m [36mIron Yard  [01;34m[01;34m [00m[K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mApplications[39;49m[0m      [1m[36mDesktop[39;49m[0m           [1m[36mLibrary[39;49m[0m           [1m[36mPublic[39;49m[0m
+Array Notes.pages [1m[36mDocuments[39;49m[0m         [1m[36mMovies[39;49m[0m            Thumbnail.jpg
+CoverLetter.pages [1m[36mDownloads[39;49m[0m         [1m[36mMusic[39;49m[0m             pwd
+CoverLetter.pdf   [1m[36mIron Yard [39;49m[0m        [1m[36mPictures[39;49m[0m          [1m[36mtemp[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=DDesktop[?1l>
+]2;Desktop]1;Desktop[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=ttouch program .js[?1l>
+]2;touch program.js]1;touch[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=ppro
+[0mPROMPT        PROMPT4       productbuild  prompt        prove5.18   
+PROMPT2       procmail      productsign   prove                     
+[JPROMPT3       [Jprocsystime   [Jprofiles      [Jprove5.16     [J            [3A[0m[27m[24m[12Cpro[Kgram_call_program[1m [0m[0m 
+[J[0mCoverLetter.pdf           JasonResume.pdf           program.js              
+[JJasonResume.pages         [JinterviewChecklist.pages  [J                        [A[A[0m[27m[24m[12C_call_program[K[1C       
+[J[J[0m_call_function  [J_call_program   [J_call_whatis  [J[A[0m[27m[24m[12C_call_[K    _  pprogram/ .js[?1l>
+[J]2;program.js]1;program.jszsh: command not found: program.js
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;31m➜ [27m[01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=pprogram_call_program[1m [0m[0m [?1l>
+]2;_call_program]1;_call_program[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=__call_program[1m [0m[0m 
+[0mCoverLetter.pdf           JasonResume.pdf           program.js              
+[JJasonResume.pages         [JinterviewChecklist.pages  [J                        [A[A[0m[27m[24m[27m[12C_call_program[K[27m[1CCoverLetter.pdf
+[7mCoverLetter.pdf         [0m  JasonResume.pdf           program.js              [K
+[JJasonResume.pages         [JinterviewChecklist.pages  [J                        [A[A[0m[27m[24m[27m[12C_call_program CoverLetter.pdf[K[27m
+[7mCoverLetter.pdf         [0m  [7mCoverLetter.pdf         [0m  [A[0m[27m[24m[27m[12C_call_program CoverLetter.pdf[K[27m[15DJasonResume[4C
+[26C[7mJasonResume.pdf         [0m  CoverLetter.pdf           [A[0m[27m[24m[27m[12C_call_program JasonResume.pdf[K[27m[15Dprogram.js     
+[52C[7mprogram.js              [0m[26CJasonResume.pdf           [A[0m[27m[24m[27m[12C_call_program program.js[K[27m
+[J[A[36C[1m [0m[0m [?1l>
+[J]2;_call_program program.js]1;_call_program[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=nnode program.js[?1l>
+]2;node program.js]1;nodeHello World
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=llearnyounode verify program.js[?1l>
+]2;learnyounode verify program.js]1;learnyounode
+Your submission results compared to the expected:
+
+[33m                 ACTUAL                                 EXPECTED                
+[39m[33m────────────────────────────────────────────────────────────────────────────────[39m
+
+   [31m"Hello World"                      [39m[31m[1m != [22m[39m   [31m"HELLO WORLD"                      [39m
+   [32m""                                 [39m[32m[1m == [22m[39m   [32m""                                 [39m
+
+[33m────────────────────────────────────────────────────────────────────────────────[39m
+
+[1m[31m✗ [39m[22mSubmission results did not match expected!
+
+[31m[1m# FAIL[22m[39m
+
+Your solution to HELLO WORLD didn't pass. Try again!
+
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;31m➜ [27m[01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=learnyounode verify program.js[?1l>
+]2;learnyounode verify program.js]1;learnyounode
+Your submission results compared to the expected:
+
+[33m                 ACTUAL                                 EXPECTED                
+[39m[33m────────────────────────────────────────────────────────────────────────────────[39m
+
+   [32m"HELLO WORLD"                      [39m[32m[1m == [22m[39m   [32m"HELLO WORLD"                      [39m
+   [32m""                                 [39m[32m[1m == [22m[39m   [32m""                                 [39m
+
+[33m────────────────────────────────────────────────────────────────────────────────[39m
+
+[1m[32m✓ [39m[22mSubmission results match expected
+
+[32m[1m# PASS[22m[39m
+
+[1mYour solution to HELLO WORLD passed![22m
+
+Here's the official solution in case you want to compare notes:
+
+[33m────────────────────────────────────────────────────────────────────────────────[39m
+    [34mconsole[39m[32m.[39m[34mlog[39m[90m([39m[92m"HELLO WORLD"[39m[90m)[39m
+
+[33m────────────────────────────────────────────────────────────────────────────────[39m
+
+You have 12 challenges left.
+Type 'learnyounode' to show the menu.
+
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=LLEARN   L  lleaar  rnyou node[?1l>
+]2;learnyounode]1;learnyounode[0m[1mc[44m[37m[3;3f                                                                     [3;5f[1mLEARN YOU THE NODE.JS FOR MUCH WIN![22m[44m[37m[4;3f                                                                     [4;5f[3m[23mSelect an exercise and hit [3mEnter[23m to begin[23m[44m[37m[5;3f                                                                     [5;5f─────────────────────────────────────────────────────────────────[6;3f                                                                     [7;3f                                                                     [8;3f                                                                     [9;3f                                                                     [10;3f                                                                     [11;3f                                                                     [12;3f                                                                     [13;3f                                                                     [14;3f                                                                     [15;3f                                                                     [16;3f                                                                     [17;3f                                                                     [18;3f                                                                     [44m[37m[19;3f                                                                     [19;5f─────────────────────────────────────────────────────────────────[20;3f                                                                     [21;3f                                                                     [22;3f                                                                     [23;3f                                                                     [?25l[2;3f                                                                     [6;5f[47m[34m[1m»[22m HELLO WORLD                                [COMPLETED][7;5f[44m[37m[1m»[22m BABY STEPS                                            [8;5f[44m[37m[1m»[22m MY FIRST I/O!                                         [9;5f[44m[37m[1m»[22m MY FIRST ASYNC I/O!                                   [10;5f[44m[37m[1m»[22m FILTERED LS                                           [11;5f[44m[37m[1m»[22m MAKE IT MODULAR                                       [12;5f[44m[37m[1m»[22m HTTP CLIENT                                           [13;5f[44m[37m[1m»[22m HTTP COLLECT                                          [14;5f[44m[37m[1m»[22m JUGGLING ASYNC                                        [15;5f[44m[37m[1m»[22m TIME SERVER                                           [16;5f[44m[37m[1m»[22m HTTP FILE SERVER                                      [17;5f[44m[37m[1m»[22m HTTP UPPERCASERER                                     [18;5f[44m[37m[1m»[22m HTTP JSON API SERVER                                  [20;5f[44m[37m[1mHELP[22m                                                    [21;5f[44m[37m[1mCHOOSE LANGUAGE[22m                                         [22;5f[44m[37m[1mCREDITS[22m                                                 [23;5f[44m[37m[1mEXIT[22m                                                    [44m[37m[24;3f                                                                     [6;5f[44m[37m[1m»[22m HELLO WORLD                                [COMPLETED][7;5f[47m[34m[1m»[22m BABY STEPS                                            [25;1f[0mc[?25h[0m[1;1f
+ [1m[32mLEARN YOU THE NODE.JS FOR MUCH WIN![39m[22m
+[1m[32m─────────────────────────────────────[39m[22m
+ [1m[33mBABY STEPS[39m[22m
+ [3m[33mExercise 2 of 13[39m[23m
+
+Write a program that accepts one or more numbers as command-line arguments and prints the sum of those numbers to the console (stdout).
+
+[90m-------------------------------------------------------------------------------
+[39m
+[90m##[39m [1m[36mHINTS[39m[22m
+
+You can access command-line arguments via the global [33mprocess[39m object. The [33mprocess[39m object has an [33margv[39m property which is an array containing the complete command-line. i.e. [33mprocess.argv[39m.
+
+To get started, write a program that simply contains:
+
+    [34mconsole[39m[32m.[39m[34mlog[39m[90m([39m[37mprocess[39m[32m.[39m[37margv[39m[90m)[39m
+
+Run it with [33mnode program.js[39m and some numbers as arguments. e.g:
+
+    [33m$ node program.js 1 2 3[39m
+
+In which case the output would be an array looking something like:
+
+    [33m[[39m [92m'node'[39m[32m,[39m [92m'/path/to/your/program.js'[39m[32m,[39m [92m'1'[39m[32m,[39m [92m'2'[39m[32m,[39m [92m'3'[39m [33m][39m
+
+You'll need to think about how to loop through the number arguments so  you can output just their sum. The first element of the process.argv array is always 'node', and the second element is always the path to your program.js file, so you need to start at the 3rd element (index 2), adding each item to the total until you reach the end of the array.
+
+Also be aware that all elements of [33mprocess.argv[39m are strings and you may need to [3mcoerce[23m them into numbers. You can do this by prefixing the property with [33m+[39m or passing it to [33mNumber()[39m. e.g. [33m+process.argv[2][39m or [33mNumber(process.argv[2])[39m.
+
+learnyounode will be supplying arguments to your program when you run [33mlearnyounode verify program.js[39m so you don't need to supply them yourself. To test your program without verifying it, you can invoke it with [33mlearnyounode run program.js[39m. When you use [33mrun[39m, you are invoking the test environment that learnyounode sets up for each exercise.
+
+[90m-------------------------------------------------------------------------------
+[39m
+ [1m»[22m To print these instructions again, run: [33mlearnyounode print[39m
+ [1m»[22m To execute your program in a test environment, run: [33mlearnyounode run program.js[39m
+ [1m»[22m To verify your program, run: [33mlearnyounode verify program.js[39m
+ [1m»[22m For help run: [33mlearnyounode help[39m
+
+
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=nnode program.js 1 2 3[?1l>
+]2;node program.js 1 2 3]1;node[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=cclear[?1l>
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=cclear[?1l>
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=iironI[3C\ Yard\ [1m/[0m[0m [?1l>
+]2;Iron\ Yard\ ]1;Iron\[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard ]1;~/Iron Yard [0m[27m[24m[J[01;32m➜ [01;32m [36mIron Yard  [01;34m[01;34m [00m[K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mAccordian[39;49m[0m   [1m[36mAssignments[39;49m[0m [1m[36mOctocats[39;49m[0m    [1m[36mProjects[39;49m[0m    [1m[36mdropdown[39;49m[0m    [1m[36mjQuery[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard ]1;~/Iron Yard [0m[27m[24m[J[01;32m➜ [01;32m [36mIron Yard  [01;34m[01;34m [00m[K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=cclear[?1l>
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=zzsh[?1l>
+]2;zsh]1;zsh[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=iiroI[2Cn\ Yard\ [1m/[0m[0m [?1l>
+]2;Iron\ Yard\ ]1;Iron\[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~/Iron Yard ]1;~/Iron Yard [0m[27m[24m[J[01;32m➜ [01;32m [36mIron Yard  [01;34m[01;34m [00m[K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;Jason@Jasons-MBP: ~]1;~[0m[27m[24m[J[01;32m➜ [01;32m [36m~ [01;34m[01;34m [00m[K[?1h=

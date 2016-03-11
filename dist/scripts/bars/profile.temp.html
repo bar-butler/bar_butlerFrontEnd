@@ -1,0 +1,13 @@
+<a id="linktop" href="#/{{userId}}/add">Add a beverage</a>
+
+<h2>Your Current Beer List</h2>
+
+<ul class="beer">
+  <li id="listbev" ng-repeat="b in beers"><button id="addbevbtn" ng-click="deleteB(b.id, $index)">X</button><a id="listbooze" ng-click="oneBeer(b)" href="">{{ b.name }}</a></li><br>
+</ul>
+
+<h2>Your Current Liquor List</h2>
+
+<ul class="liquor">
+  <li id="listbev" ng-repeat="l in liquors"><a id="listbooze" ng-click="oneLiq(l)" href="">{{ l.name }}</a><button id="addbevbtn" ng-click="deleteL(l.id, $index)">X</button></li><br>
+</ul>
